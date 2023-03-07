@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Laboratório Pipeline DevOps'
+    return 'Laboratório Pipeline DevOps - 1'
 
 
 if __name__ == '__main__':
