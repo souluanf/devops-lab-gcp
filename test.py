@@ -11,4 +11,4 @@ class Test(unittest.TestCase):
         self.assertEqual(self.result.status_code, 200)
 
     def test_content(self):
-        self.assertEqual(self.result.data.decode('utf-8'), 'Laboratório Pipeline DevOps')
+        self.assertEqual(self.result.data.decode('utf-8'), 'Laboratório Pipeline DevOps - 1')
