@@ -6,7 +6,7 @@ csrf = CSRFProtect(app)
 
 @app.route('/')
 def hello_world():
-    return 'Laboratório Pipeline DevOps - 1'
+    return 'Laboratório Pipeline DevOps'
 
 
 if __name__ == '__main__':
