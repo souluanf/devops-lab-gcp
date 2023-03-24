@@ -8,6 +8,5 @@ csrf = CSRFProtect(app)
 def hello_world():
     return 'Laboratório Pipeline DevOps'
 
-
 if __name__ == '__main__':
     app.run()
